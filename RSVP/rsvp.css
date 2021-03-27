@@ -1,0 +1,33 @@
+#rsvpForm{
+    display: block;
+    margin: auto auto;
+    width: 100%;
+    text-align: center;
+}
+
+.rsvpInput{
+    display: block;
+    margin: auto;
+    width: 400px;
+    padding: 5px;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+#rsvpSubmitButton{
+    width: 400px;
+    background-color: #FFB81C;
+    border: none;
+    font-size: 20px;
+    padding: 10px;
+    border: 1px solid #FFB81C;
+    border-radius: 5px;
+}
+
+#rsvpSubmitButton:hover{
+    cursor: pointer;
+}
+
+.inputContainer{
+    margin: 10px;
+}
