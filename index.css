@@ -337,6 +337,7 @@ table {
 	padding-bottom: 0.5%;
 	margin-bottom: 7%;
 	position: relative;
+	font-family: 'Open Sans', sans-serif;
 	/* border-radius: 0.3em; */
 	border-color: #FFB81C;
 	background-color: #ffffff3f;
@@ -364,15 +365,19 @@ table {
 
 #stats .picrew1 {
 	/* border-radius: 10%; */
-	width: 350px;
-	height: 210px;
+	width: 40%;
+	height: 70%;
+	border: 3px solid #FFB81C;
+	border-radius: 0.3em;
 	/* border: 5px solid #FFB81C; */
 }
 
 #stats .picrew2 {
 	/* border-radius: 10%; */
-	width: 210px;
-	height: 180px;
+	border: 3px solid #FFB81C;
+	border-radius: 0.3em;
+	width: 45%;
+	height: 75%;
 	/* border: 5px solid #FFB81C; */
 }
 #helpOptions {	
@@ -437,7 +442,8 @@ table {
 	/* border-radius: 10%; */
 	width: 230px;
 	height: 230px;
-	/* border: 5px solid #FFB81C; */
+	border: 3px solid #FFB81C;
+	border-radius: 0.3em;
 }
 
 #FAQ .ans {
@@ -875,12 +881,28 @@ table {
 		width: 90%;
 	} 
 
+	#stats .row {
+		grid-template-columns: 100%;
+		text-align: center;
+		width: 90%;
+	}
+
+	#stats .row1 {
+		grid-template-columns: 100%;
+		text-align: center;
+		width: 90%;
+	}
+
 	#organizers .row {
-		width: 70%;
+		grid-template-columns: 100%;
+		text-align: center;
+		width: 90%;
 	}
 
 	#organizers .row1 {
-		width: 70%;
+		grid-template-columns: 100%;
+		text-align: center;
+		width: 90%;
 	}
 
 	#sponsors .row {
