@@ -20,6 +20,7 @@ body {
 	text-align: center;
 	/* color: #cbd6f0; */
 	color: #FFB81C; 
+	
 
 	min-width: 50%;
 	font-family: sans-serif;
@@ -92,6 +93,38 @@ a, a:visited {
 .grow:hover { 
 	transform: scale(1.1); 
 	transition: all .3s linear;
+}
+
+#title{
+	
+	/* border-top: 0.3em solid; */
+	/* border-left: 0.3em solid;
+	border-right: 0.3em solid;
+	border-color:#FFB81C; */
+}
+
+#myVideo {
+	position: fixed;
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 100%;
+}
+
+#title .main{
+	width: 100%;
+	height:100%;
+	border-top: 0.1em solid;
+	border-bottom: 0.1em solid;
+	border-color:#FFB81C;
+}
+
+#border{
+	
+	/* border-top: 0.3em solid; */
+	/* border-left: 0.3em solid;
+	border-right: 0.3em solid;
+	border-color:#FFB81C; */
 }
 
 #socialMedia a:hover {
@@ -217,6 +250,7 @@ a, a:visited {
 #about {
 	position: relative;
 	margin-bottom: 5%;
+	
 }
 
 #aboutUs {
@@ -339,8 +373,9 @@ table {
 	position: relative;
 	font-family: 'Open Sans', sans-serif;
 	/* border-radius: 0.3em; */
-	border-color: #FFB81C;
-	background-color: #ffffff3f;
+	border-top: 3px solid #FFB81C;
+	border-bottom: 3px solid #FFB81C;
+	background-color: rgba(255,255,255,0.4);
 	color: #FFB81C;
 }
 
@@ -367,14 +402,14 @@ table {
 	/* border-radius: 10%; */
 	width: 40%;
 	height: 70%;
-	border: 3px solid #FFB81C;
+	border: 3px solid #1E3D58;
 	border-radius: 0.3em;
 	/* border: 5px solid #FFB81C; */
 }
 
 #stats .picrew2 {
 	/* border-radius: 10%; */
-	border: 3px solid #FFB81C;
+	border: 3px solid #1E3D58;
 	border-radius: 0.3em;
 	width: 45%;
 	height: 75%;
